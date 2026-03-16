@@ -45,7 +45,7 @@ export default function MerchPage() {
         Merch Store
       </Typography>
 
-      <Grid container spacing={4}>
+      {/* <Grid container spacing={4}>
         {merchList.map((item) => (
           <Grid item xs={12} sm={6} md={4} key={item.id}>
             <Card sx={{ height: "100%" }}>
@@ -74,7 +74,7 @@ export default function MerchPage() {
             </Card>
           </Grid>
         ))}
-      </Grid>
+      </Grid> */}
     </Container>
   );
 }
